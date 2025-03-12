@@ -1,0 +1,83 @@
+Review 1:
+public bool IsShopOpen(string day)
+{
+    if (string.IsNullOrEmpty(day))
+    {
+        return false;
+    };
+
+    var openDays = new HashSet<string> { "friday", "saturday", "sunday" };
+    return openDays.Contains(day.ToLower());
+}
+* Simplify conditional logic by using a HashSet<string> or Contains() instead of multiple if-else statements. 
+* Reduced cognitive complexity from 12 to 2.
+
+
+
+Review 3:
+public long Fibonacci(int n)
+{
+    if (n >= 50)
+    {
+        throw new UnsupportedValueException("Not supported");
+    }
+
+    if (n == 0) return 0;
+    if (n == 1) return 1;
+
+    long a = 0;
+    long b = 1;
+    for (int i = 2; i <= n; i++)
+    {
+        long temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return b;
+}
+*	Replaced the recursive approach with an iterative approach.
+*	Simplified the if statements to handle edge cases (n == 0 and n == 1).
+*   Reduced the cognitive complexity from 12 to 4.
+
+Review 4:
+var locations = new[] { "Austin", "New York", "San Francisco" };
+
+foreach (var location in locations)
+{
+    DoStuff();
+    DoSomeOtherStuff();
+
+    // ...
+    // ...
+    // ...
+    // No need to remember what `li` is for
+    Dispatch(location);
+}
+* Replaced the ambiguous variable name `li` with a more descriptive name `location`.
+* Improved readability and maintainability by using a more meaningful variable name.
+
+Review 5:
+const int AdminRole = 8;
+if (userRole == AdminRole)
+{
+    
+}
+* Avoid using magic numbers in code. Instead, use constants with descriptive names to improve readability and maintainability.
+
+Review 6:
+public class Car
+{
+    public string Make { get; set; }
+    public string Model { get; set; }
+    public string Color { get; set; }
+
+    //...
+}
+* Follow consistent naming conventions for properties in a class.
+
+Review 9:
+public void CreateMicrobrewery(string name = "Hipster Brew Co.")
+{
+    // ...
+}
+* Use default parameter values to provide a meaningful default value for optional parameters.
