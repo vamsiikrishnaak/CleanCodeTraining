@@ -1,0 +1,7 @@
+Review 1 - Consider renaming the variable d to elapsedTimeInDays for better clarity and readability. This makes the code more descriptive and easier to understand.
+Review 2 - Consider renaming dataFromDb to something more specific, like employeesList, to improve code readability.
+Review 3 - Consider renaming iCounter to counter, strFullName to fullName, and dModifiedDate to modifiedDate for better readability and maintainability.
+Review 4 - The parameter names pDay and pAmount are not very descriptive. Consider renaming them to paymentDay and paymentAmount respectively (or a more relevant name) to make their purpose clearer.
+Review 5 - Ensure consistent naming conventions. For ex - constants should use uppercase with underscores (DAYS_IN_MONTH), variables should be camelCase (artists), and class names should be PascalCase (Animal)
+Review 6 - Datetime should be corrected to DateTime. Also, follow consistent naming conventions: rename sWorkDate to StartWorkDate and modTime to ModifiedTime for better readability and clarity.
+Review 7 - Variable names should follow camelCase. Rename employeephone to employeePhone for readability. Also, consider renaming workingdays and workinghours to workingDays and workingHours to follow C# naming conventions
