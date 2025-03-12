@@ -1,2 +1,2 @@
 # CleanCodeTraining
-Learing repo for Clean Code training
+Learning repo for Clean Code training
