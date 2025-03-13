@@ -1,0 +1,9 @@
+﻿-------Monogram-------
+"Hi how are y" -------> Monogram(y)
+"Hi how are you doing" -------> Monogram(doing)
+"" -------> Monogram("")
+
+-------Bigram-------
+"Hi how are " -------> Bigram(are)
+"Hi how are you " -------> Bigram(you)"
+" " -------> Bigram("")

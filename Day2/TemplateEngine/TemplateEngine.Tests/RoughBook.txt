@@ -1,0 +1,8 @@
+﻿-------------------1 var -----------------------
+Hello {name}, -----Vamsi--> Hello Vamsi
+              -----Krishna--> Hello Krishna
+
+-------------------2 var -----------------------
+Hello {firstName} {lastName}, -------> Hello Vamsi Krishna
+
+-------------------N var -----------------------
